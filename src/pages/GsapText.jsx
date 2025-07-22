@@ -10,7 +10,7 @@ const GsapText = () => {
     gsap.to("#text", {
     duration: 2,
     text: "This is the new text",
-    ease: " none",
+    ease: " none ",
 });
   } )
 
