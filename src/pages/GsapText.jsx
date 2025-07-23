@@ -28,7 +28,7 @@ const GsapText = () => {
       </p>
 
       <p className="mt-5 text-gray-500 para">
-        Using these methods we can achieve various text animations and effects
+        Using these methods we cccan achieve various text animations and effects
         like fade in, fade out, slide in, slide out, and many more.
       </p>
 
