@@ -35,7 +35,7 @@ const GsapText = () => {
       <p className="mt-5 text-gray-500 para">
         For more advanced text animations and effects, you can explore the GSAP
         TextPlugin or other third-party libraries that specialize in text
-        animations.    Helloo
+        animations. Helloo
       </p>
 
       <p className="mt-5 text-gray-500 para">
