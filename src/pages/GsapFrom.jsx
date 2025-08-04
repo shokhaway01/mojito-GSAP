@@ -5,15 +5,20 @@ import gsap from "gsap";
 const GsapFrom = () => {
   // TODO: Implement the gsap.from() method
 
+
   useGSAP( () => {
     gsap.from("#green-box", {
-      duration: 5,
-      x: 750,
-      rotation: -720,
+      duration: 2,
+      x: 500,
+      rotation: 360,
       yoyo: true,
+      scale: 2.5,
+      borderRadius: "50%",
+      boxShadow: "0px 0px 20px red",
       repeat: -1,
-      ease: "power1.inOut",
-      scale:1.5
+      repeatDelay: 0.5,
+      ease: "power1.out",
+      backgroundColor: "red",
     })
   } )
 
