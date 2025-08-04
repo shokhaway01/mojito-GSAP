@@ -3,16 +3,16 @@ import gsap from "gsap";
 
 const GsapTo = () => {
   // TODO: Implement the gsap.to() method
+
+
   useGSAP( () => {
     gsap.to("#blue-box", {
-      duration: 3,
-      x: 750,
-      rotate: 2520,
-      yoyo: true,
-      repeat: -1,
-      ease: "elastic"
+      duration: 2,
+      x: 300,
+      rotation: 360,
     })
-  }, [] )
+  }, [ ]);
+
 
 
   return (
