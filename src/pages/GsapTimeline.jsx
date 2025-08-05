@@ -5,37 +5,27 @@ const GsapTimeline = () => {
   // TODO: Implement the gsap timeline
 
   const tl = gsap.timeline({
-    repeat: -1, // Repeat indefinitely
-    repeatDelay: 1, // Delay before repeating
-    // yoyo: true, // Reverse the animation on repeat
+    repeat: -1,
+    repeatDelay: 1,
+    yoyo: true,
   });
-
 
   useGSAP( () => {
     tl.to("#yellow-box", {
-      x: 150,
+      x: 100,
       duration: 1,
-      ease: "back.inOut",
+      ease: ".backinOut",
     })
     .to("#yellow-box", {
       y: 100,
       duration: 1,
-      ease: "back.inOut", 
+      backgroundColor: "blue",
+      duration: 1,
+      ease: "back.inOut",
     })
-    .to("#yellow-box", {
-      rotation: 360,
-      duration: 1,
-      ease: "back.inOut",})
-    .to("#yellow-box", {
-      x: 0,
-      duration: 1,
-      ease: "back.inOut",})
-      .to("#yellow-box", {
-      y: 0,
-      duration: 1,
-      rotation: 360,
-      ease: "back.inOut",})
-  })
+  }, [])
+
+
 
 
   let changePlayState = () => {
