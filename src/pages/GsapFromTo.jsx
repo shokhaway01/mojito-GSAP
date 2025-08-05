@@ -11,7 +11,7 @@ const GsapFromTo = () => {
       rotation: 0,
       scale: 1,
       borderRadius: "30%",
-      // boxShadow: "0px 0px 30px lightgreen",
+      boxShadow: "0px 0px 30px lightgreen",
       backgroundColor: "lightgreen",
     },
     {
