@@ -11,7 +11,7 @@ const GsapFromTo = () => {
       rotation: 0,
       scale: 1,
       borderRadius: "30%",
-      boxShadow: "0px 0px 30px lightgreen",
+      // boxShadow: "0px 0px 30px lightgreen",
       backgroundColor: "lightgreen",
     },
     {
@@ -25,7 +25,7 @@ const GsapFromTo = () => {
       boxShadow: "0px 0px 20px red",
       repeat: -1,
       repeatDelay: 0.5,
-      ease: "bounce.out",
+      ease: "bounce.inOut",
       backgroundColor: "red",
     })
   } )

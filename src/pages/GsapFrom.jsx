@@ -19,7 +19,7 @@ const GsapFrom = () => {
       repeatDelay: 0.5,
       ease: "power1.out",
       backgroundColor: "red",
-    })
+    }, [])
   } )
 
 
