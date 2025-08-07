@@ -41,7 +41,7 @@ const GsapFrom = () => {
       </p>
 
       <p className="mt-5 text-gray-500">
-        Read more about the{" "}
+        Read more aboutt the{" "}
         <a
           href="https://greensock.com/docs/v3/GSAP/gsap.from()"
           target="_blank"
