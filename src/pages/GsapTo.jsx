@@ -2,15 +2,30 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const GsapTo = () => {
-  // TODO: Implement the gsap.to() method
 
+  let newTimeline = gsap.timeline()
 
   useGSAP( () => {
-    gsap.to("#blue-box", {
+    newTimeline.to("#blue-box", {
       duration: 2,
-      x: 300,
+      x: 400,
+      repeat: -1,
+      repeatDelay: 1, 
+      yoyo: true,
+      ease:"bounce.inOut",
       rotation: 360,
     })
+    .to("#blue-box", {
+      borderRadius: "100%",
+      duration: 5,
+      x: 400,
+      y: 350,
+      rotate: 720,
+      repeat: -1,
+      repeatDelay: 1,
+      yoyo: true,
+    })
+
   }, [ ]);
 
 
@@ -18,7 +33,6 @@ const GsapTo = () => {
   return (
     <main>
       <h1>GsapTo</h1>
-
       <p className="mt-5 text-gray-500">
         The <code>gsap.to()</code> method is used to animate elements from their
         current state to a new state.
