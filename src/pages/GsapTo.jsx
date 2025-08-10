@@ -3,7 +3,12 @@ import gsap from "gsap";
 
 const GsapTo = () => {
 
-  let newTimeline = gsap.timeline()
+  let newTimeline = gsap.timeline({
+    repeat: -1,
+    repeatDelay: 1,
+    yoyo: true,
+    ease: "back.inOut",
+  })
 
   useGSAP( () => {
     newTimeline.to("#blue-box", {
@@ -12,7 +17,7 @@ const GsapTo = () => {
       repeat: -1,
       repeatDelay: 1, 
       yoyo: true,
-      ease:"bounce.inOut",
+      ease:"back.inOut",
       rotation: 360,
     })
     .to("#blue-box", {
@@ -20,6 +25,10 @@ const GsapTo = () => {
       duration: 5,
       x: 400,
       y: 350,
+      scale: 2,
+      backgroundColor: "red",
+      boxShadow: "0px 0px 40px red",
+      ease: "back.inOut",
       rotate: 720,
       repeat: -1,
       repeatDelay: 1,

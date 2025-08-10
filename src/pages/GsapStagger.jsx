@@ -8,7 +8,7 @@ const GsapStagger = () => {
 
     gsap.to( staggerBoxes, {
       duration: 3,
-      y: 200,
+      y: 400,
       opacity: 1,
       stagger: {
         each: 0.1,
@@ -48,10 +48,10 @@ const GsapStagger = () => {
         >
           Gsap Stagger
         </a>{" "}
-        feature.
+        features
       </p>
 
-      <div className="mt-20">
+      <div className="mt-20 justify-center items-center flex">
         <div className="flex gap-5">
           <div className="w-20 h-20 bg-indigo-200 rounded-lg stagger-box" />
           <div className="w-20 h-20 bg-indigo-300 rounded-lg stagger-box" />
