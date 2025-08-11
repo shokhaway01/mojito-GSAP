@@ -48,7 +48,7 @@ const GsapStagger = () => {
         >
           Gsap Stagger
         </a>{" "}
-        features
+        features ..
       </p>
 
       <div className="mt-20 justify-center items-center flex">
