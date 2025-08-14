@@ -40,7 +40,7 @@ const GsapStagger = () => {
       </p>
 
       <p className="mt-5 text-gray-500">
-        Read more about the{" "}
+        Read more about the т{" "}
         <a
           href="https://gsap.com/resources/getting-started/Staggers"
           target="_blank"
