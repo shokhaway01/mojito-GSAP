@@ -43,7 +43,7 @@ const GsapTo = () => {
     <main>
       <h1>GsapTo</h1>
       <p className="mt-5 text-gray-500">
-        The <code>gsap.to()</code> method is used to animate elements from their
+        The <code>gsap.to()</code> method is us ed to animate elements from their
         current state to a new state.
       </p>
       <p className="mt-5 text-gray-500">
